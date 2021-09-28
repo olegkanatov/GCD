@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     private func buttonSetup() {
         button.setTitle("Go to 2VC", for: .normal)
         button.backgroundColor = .brown
+        button.tintColor = .white
         button.addTarget(self, action: #selector(goTo2VC), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(button)
